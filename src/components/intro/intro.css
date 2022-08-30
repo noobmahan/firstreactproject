@@ -1,0 +1,27 @@
+section.intro {
+  display: flex;
+  background-color: #21aa58;
+}
+/* section.intro div {
+} */
+section.intro div.intro-content {
+  width: calc(50% - 150px);
+  padding: 15px 250px 30px 30px;
+  color: #fff;
+}
+section.intro div.intro-content h1 {
+  font-size: 35px;
+  line-height: 48px;
+  font-weight: 750;
+}
+section.intro div.intro-content p {
+  font-size: 21px;
+  padding: 20px 0 0 0;
+  line-height: 150%;
+}
+section.intro div.intro-img {
+  width: 50%;
+  min-height: 250px;
+  background-size: cover;
+  background-position: center;
+}

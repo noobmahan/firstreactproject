@@ -1,9 +1,9 @@
 @font-face {
-  font-family: myFirstFont;
-  src: url("../fonts/WebYekan.ttf");
+  font-family: "IranFuckingSans";
+  src: url("../fonts/A-Iranian-Sans/Iranian\ Sans.ttf");
 }
 * {
-  /* font-family: ; */
+  font-family: "IranFuckingSans";
 }
 
 body {
