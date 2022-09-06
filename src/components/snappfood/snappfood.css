@@ -1,0 +1,16 @@
+section#section4 {
+  display: flex;
+  padding: 80px 20px;
+  justify-content: center;
+}
+section#section4 a {
+  width: 100%;
+  max-width: 1350px;
+}
+section#section4 a img {
+  width: 100%;
+  border-radius: 10px;
+}
+/* @media  and (max-width:) {
+    
+} */

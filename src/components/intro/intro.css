@@ -2,11 +2,9 @@ section.intro {
   display: flex;
   background-color: #21aa58;
 }
-/* section.intro div {
-} */
 section.intro div.intro-content {
-  width: calc(50% - 150px);
-  padding: 15px 250px 30px 30px;
+  width: calc(40% - 30px);
+  padding: 15px 15% 30px 30px;
   color: #fff;
 }
 section.intro div.intro-content h1 {
@@ -19,9 +17,86 @@ section.intro div.intro-content p {
   padding: 20px 0 0 0;
   line-height: 150%;
 }
+section.intro div.intro-input input {
+  width: 300px;
+  padding: 15px 0 0 0;
+  border: none;
+  border-bottom: solid 1px #fff;
+  line-height: 32px;
+  background: none;
+  outline: none;
+  color: aliceblue;
+}
+::placeholder {
+  color: rgb(238, 232, 232);
+}
+section.intro div.intro-content div.intro-input div.input-link-send button {
+  padding: 0 10px;
+  height: 45px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+section.intro div.intro-content div.intro-input button#link-butten {
+  padding: 0 35px 0 35px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 16px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #00d16f;
+  background-color: #fff;
+}
+section.intro div.intro-content div.intro-input button#application-link {
+  color: #fff;
+  padding: 0 10px;
+  height: 45px;
+  border-radius: 8px;
+  margin: 30px 0 16px 0;
+  padding: 0 40px 0 40px;
+  font-size: 17px;
+  background-color: #21aa58;
+  border: 1px solid #fff;
+}
 section.intro div.intro-img {
   width: 50%;
   min-height: 250px;
   background-size: cover;
   background-position: center;
+}
+@media screen and (max-width: 1300px) {
+  section.intro {
+    flex-direction: column-reverse;
+  }
+  section.intro div.intro-img {
+    width: 100%;
+  }
+  section.intro div.intro-content {
+    width: calc(100% - 50px);
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 838px) {
+  section.intro div.intro-content h1 {
+    margin-top: 0;
+    font-size: 25px;
+    line-height: 48px;
+    font-weight: 900;
+  }
+  section.intro div.intro-content p {
+    font-size: 19px;
+    padding: 10px 0 0 0;
+    line-height: 150%;
+  }
+  section.intro div.intro-content div.intro-input div.input-link-send {
+    display: none;
+  }
+  section.intro div.intro-content div.intro-input button#application-link {
+    width: 100%;
+    color: #000;
+    background-color: #fff;
+    margin-bottom: 5px;
+  }
 }

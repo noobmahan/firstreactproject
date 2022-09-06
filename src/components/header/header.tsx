@@ -1,6 +1,6 @@
-import logo from "../../img/snappTextLogo.svg";
+import logo from "../../assets/img/snappTextLogo.svg";
 import "./header.css";
-import menulogo from "../../img/menu.png";
+import menulogo from "../../assets/img/menu.png";
 
 function Header() {
   return (

@@ -1,5 +1,5 @@
 import "./intro.css";
-import introimg from "../../img/intro_desktop.jpg";
+import introimg from "../../assets/img/intro_desktop.jpg";
 
 function Intro() {
   return (
@@ -13,6 +13,24 @@ function Intro() {
           سفر،مشاوره پزشکی و روانشناسی،رزرو هتل و ...را می توانیدبا سوپر
           اپلیکیشن اسنپ انجام دهید.
         </p>
+        <div className="intro-input">
+          <form>
+            <div className="input-link-send">
+              <input
+                type="number"
+                placeholder="09xxxxx9287"
+                color="rgb(114, 115, 116)"
+                auto-corret=""
+              />
+              <button id="link-butten" type="submit">
+                ارسال لینک
+              </button>
+            </div>
+            <button id="application-link" type="button">
+              ورود به وب اپلیکیشن اسنپ
+            </button>
+          </form>
+        </div>
       </div>
       <div
         className="intro-img"

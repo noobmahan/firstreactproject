@@ -1,4 +1,11 @@
 footer {
-  height: 60px;
-  background-color: green;
+  display: flex;
+  padding: 40px;
+  justify-content: space-between;
+}
+footer div#footer-link-txt a {
+  text-decoration: none;
+  color: rgb(114, 115, 116);
+  margin: 18px;
+  font-size: 17px;
 }

@@ -1,9 +1,8 @@
 @font-face {
-  font-family: "IranFuckingSans";
-  src: url("../fonts/A-Iranian-Sans/Iranian\ Sans.ttf");
-}
-* {
-  font-family: "IranFuckingSans";
+  font-family: "iransans";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../src/assets/fonts/Iranian\ Sans.ttf") format("ttf");
 }
 
 body {

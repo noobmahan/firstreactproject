@@ -1,0 +1,15 @@
+section#section2 {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 100px 10%;
+}
+section#section2 a img.dawnload {
+  width: 160px;
+  height: 47.5px;
+  background-color: aliceblue;
+}
+@media screen and (max-width: 840px) {
+  section#section2 {
+    display: none;
+  }
+}
